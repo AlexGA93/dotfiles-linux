@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+# Tiempo máximo de escaneo en milisegundos
+scan_timeout = 10000
+
 [aws]
 symbol = " "
 
@@ -31,7 +34,7 @@ symbol = " "
 symbol = " "
 
 [directory]
-read_only = " 󰌾"
+read_only = "󰌾"
 
 [docker_context]
 symbol = " "
@@ -59,6 +62,9 @@ symbol = " "
 
 [git_commit]
 tag_symbol = '  '
+
+[git_status]
+disabled = true
 
 [golang]
 symbol = " "
@@ -123,80 +129,3 @@ Artix = " "
 CachyOS = " "
 CentOS = " "
 Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "󰛓 "
-Gentoo = " "
-HardenedBSD = "󰞌 "
-Illumos = "󰈸 "
-Kali = " "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-Nobara = " "
-OpenBSD = "󰈺 "
-openSUSE = " "
-OracleLinux = "󰌷 "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-RockyLinux = " "
-Redox = "󰀘 "
-Solus = "󰠳 "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Void = " "
-Windows = "󰍲 "
-
-[package]
-symbol = "󰏗 "
-
-[perl]
-symbol = " "
-
-[php]
-symbol = " "
-
-[pijul_channel]
-symbol = " "
-
-[pixi]
-symbol = "󰏗 "
-
-[python]
-symbol = " "
-
-[rlang]
-symbol = "󰟔 "
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = "󱘗 "
-
-[scala]
-symbol = " "
-
-[status]
-symbol = " "
-
-[swift]
-symbol = " "
-
-[xmake]
-symbol = " "
-
-[zig]
-symbol = " "

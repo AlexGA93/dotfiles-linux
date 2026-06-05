@@ -1,0 +1,5 @@
+#!/bin/bash
+# Scripts que se ejecutan al iniciar Hyprland
+
+nohup /home/elros/bin/mount-raspi-auto-final.sh >/dev/null 2>&1 &
+
